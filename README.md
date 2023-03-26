@@ -1,1 +1,1 @@
-# TypeCheck.github
+# typeit.github.io

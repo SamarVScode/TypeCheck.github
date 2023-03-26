@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TypeCheck.io</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+    
+    <script src="script.js" type="module" defer></script>
+    <script src="https://kit.fontawesome.com/7b699b5b7f.js" crossorigin="anonymous"></script>
+  </head>
+  <body id="body">
+    <div class="bg-image add-sepia">
+      <img src="./background-set/Hexagon (1).svg" alt="" srcset="">
+    </div>
+    <div class="main--wrap add-sepia">
+      <header class="head center">
+        <section class="head-text center">
+          <h1 class="font">TYPE CHECK.<span>io</span></h1>
+        </section>
+      </header>
+      <main  class="add-sepia">
+        <div class="start-area center">
+          <div class="typing-wrapper center">
+            <section class="typewriter">
+              Lorem ipsum dolor
+            </section>
+          </div>
+          <button id="start" class="button">START</button>
+        </div>
+        <div class="wrapper">
+          <div class="type-area center">
+            <div class="quote-in" id="quote"> 
+              
+            </div>
+          </div>
+          <div class="descript center">
+            <div class="desc-count">
+              <div class="desc" title="Correct Letter Count" style="--order:0">
+               Correct Letters :
+                <span id="correct" style="color:rgb(8, 177, 101);"></span>
+              </div>
+              
+              <div class="desc" title="Wrong Letter Count" style="--order:1;">
+                Wrong Letters :
+                <span id="error"style="color:red;"></span>
+              </div>
+              <div class="desc" title="Time Count" style="--order:2;">
+                Time Count (S):
+                <span id="timer"style="color:white;"></span>
+              </div>
+              <div class="desc" title="Total Letter Count" style="--order:3;">
+                Total Letters : 
+                <span id="total"style="color:white;"></span>
+              </div>
+              <div class="desc" title="Word Per Minute" style="--order:4;">
+                Word Per Min : 
+                <span id="wpm" style="color:white;"></span>
+              </div>
+          </div>
+          <div class="typing-area center">
+            <textarea name="" id="typeArea" cols="30" rows="10"></textarea>
+          </div>
+          
+        </div>
+        <div class="btn center">
+         <button id="next" class="button">NEXT</button>
+        </div>
+        
+      </main>
+    </div>
+    <footer>
+      <div class="nav-wrapper">
+        <input type="checkbox" name="popup-nav" id="pop-nav">
+      <label for="pop-nav">
+         <div class="hamburger">
+          <span class="points p-1"></span>
+          <span class="points p-2"></span>
+          <span class="points p-3"></span>
+         </div>
+      </label>
+      <nav class="center" id="popnav-nav">
+        <div class="nav-wrap">
+          
+          <button class="popups" id="sepia-btn"><i class="fa-solid fa-eye"></i></button>
+          
+          
+        </div>
+      </nav>
+      </div>
+      
+    </footer>
+
+  </body>
+</html>
