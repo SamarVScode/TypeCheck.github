@@ -174,7 +174,7 @@ html {
   padding: 1.5rem;
   height: clamp(20rem, 23cqi, 26rem);
   width: var(--wrapper-width);
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.15rem;
   text-align: justify;
   border-radius: 2rem;
   border: 2px solid rgb(0, 191, 255);
@@ -183,7 +183,9 @@ html {
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
   color: white;
-  font-weight: lighter;
+}
+.wrapper .type-area .quote-in span {
+  font-weight: 400;
 }
 .wrapper #typeArea {
   padding: 0.8rem;
