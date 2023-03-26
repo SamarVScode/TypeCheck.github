@@ -119,7 +119,7 @@ html {
   height: 60vh;
 }
 .main--wrap .start-area .button {
-  border: 0.5px solid rgba(52, 239, 19, 0.9);
+  border: 2.5px solid rgba(52, 239, 19, 0.9);
   box-shadow: inset 0 0 1rem rgb(24, 174, 244);
 }
 .main--wrap .button {
